@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>XYZ Fashions</title>
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Sports</a>
+        <a href="javascript:void(0);" class="icon" onclick="showmenu()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="welcomeimg">
+        <img id="imgwlc" src="./assets/welc.jpg" alt="">
+        <p id="overtext"></p>
+        <p id="overtext2">Fashion as unique as you are!</p>
+    </div>
+    <section class="products">
+        <div class="product-card">
+            <div class="product-image">
+                <img id="imgp" src="assets/product.jpg">
+            </div>
+            <div class="product-info">
+                <h5>Aurora Sport Shoes</h5>
+                <h6>$99.99</h6>
+                <a href="javascript:void(0);" class="button" style="background-color:#f14e4e">View</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img id="imgp" src="assets/product.jpg">
+            </div>
+            <div class="product-info">
+                <h5>Aurora Sport Shoes</h5>
+                <h6>$99.99</h6>
+                <a href="javascript:void(0);" class="button" style="background-color:#f14e4e">View</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img id="imgp" src="assets/product.jpg">
+            </div>
+            <div class="product-info">
+                <h5>Aurora Sport Shoes</h5>
+                <h6>$99.99</h6>
+                <a href="javascript:void(0);" class="button" style="background-color:#f14e4e">View</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img id="imgp" src="assets/product.jpg">
+            </div>
+            <div class="product-info">
+                <h5>Aurora Sport Shoes</h5>
+                <h6>$99.99</h6>
+                <a href="javascript:void(0);" class="button" style="background-color:#f14e4e">View</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="form-popup" id="contactform">
+        <form action="#" class="form-container">      
+          <input type="text" placeholder="Enter name" name="names" required> <br>
+
+          <input type="email" placeholder="Enter Email" name="email" required> <br>
+      
+          <textarea name="subject" id="subject" cols="30" rows="10" placeholder="Type here"></textarea> <br>
+      
+          <button type="submit" class="btn">Send Message</button>
+          <button type="submit" class="btn cancel" onclick="closeForm()">Close Form</button>
+        </form>
+      </div> 
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3>XYZ<span>Fashions</span></h3>
+
+            <p class="footer-links">
+                <a href="#">Home</a>
+                ·
+                <a href="#">Men</a>
+                ·
+                <a href="#">Women</a>
+                ·
+                <a href="#">Sports</a>
+                ·
+            </p>
+
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Masoro, Bumbogo</span> Kigali, Rwanda</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+250 789 342 456</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="#">contact@xyzfashion.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>About Us</span>
+                XYZ is fashion store situated in Kigali Rwanda. We focus on men, women and sports wear.
+            </p>
+
+            <div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+
+            </div>
+            <button class="open-button" id="open-button" onclick="openForm()">Contact Us</button>
+
+        </div>
+
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
